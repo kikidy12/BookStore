@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="kr.co.tjeit.bookstore.activitiys.BookListActivity">
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/activityTitle2Txt"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="회원 관리"
+            android:textColor="#FFFFFF"
+            android:textSize="25sp"
+            android:gravity="center"
+            android:background="#FF0000"/>
+        <ImageButton
+            android:id="@+id/addImgBtn2"
+            android:layout_marginRight="5dp"
+            android:layout_gravity="right|center_vertical"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/add_ico"
+            android:scaleType="fitXY"
+            android:padding="10dp"
+            android:background="#00000000"/>
+    </FrameLayout>
+    <ListView
+        android:id="@+id/bookListView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </ListView>
+
+</LinearLayout>

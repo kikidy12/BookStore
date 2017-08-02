@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context="kr.co.tjeit.bookstore.activitiys.ViewInfoBookInfoActivity">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="도서 정보"
+        android:textColor="#FFFFFF"
+        android:textSize="25sp"
+        android:gravity="center"
+        android:background="#FF0000"/>
+    <ImageView
+        android:id="@+id/imgView"
+        android:layout_gravity="center"
+        android:layout_width="250dp"
+        android:layout_height="200dp" />
+
+    <LinearLayout
+        android:padding="15dp"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_marginTop="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="제목"/>
+        <TextView
+            android:id="@+id/bookTitleTxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="책 제목"
+            android:textSize="17sp"/>
+
+        <TextView
+            android:layout_marginTop="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="작가명"/>
+        <TextView
+            android:id="@+id/atuhorNameTxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="배철현"
+            android:textSize="17sp"/>
+
+        <TextView
+            android:layout_marginTop="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="출판사"/>
+        <TextView
+            android:id="@+id/publisherNameTxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="어딘가"
+            android:textSize="17sp"/>
+
+        <TextView
+            android:layout_marginTop="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="가격"/>
+        <TextView
+            android:id="@+id/costTxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="5000원"
+            android:textSize="17sp"/>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/modfyCustomerBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="고객 정보 수정"/>
+
+</LinearLayout>
