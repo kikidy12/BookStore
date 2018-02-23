@@ -31,7 +31,7 @@ public class LoginActivity extends AppCompatActivity {
                     finish();
                 }
                 else {
-                    Toast.makeText(LoginActivity.this, "로그인에 실패했습니다.\n아이디/비밀번호를 확인해주세요.", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(LoginActivity.this, "로그인에 실패했어요.\n아이디/비밀번호를 확인해주세요.", Toast.LENGTH_SHORT).show();
                 }
             }
         });
